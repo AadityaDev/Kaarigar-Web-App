@@ -71,3 +71,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/t
 
 
 ### `firebase emulators:start` to run functions locally
+
+
+### `firebase deploy --only functions --token`
