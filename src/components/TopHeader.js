@@ -2,6 +2,11 @@ import { useState } from 'react'
 import { Dialog } from '@headlessui/react'
 import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 
+const uniformData = {
+  heading: "Get your uniform needs solved by the Kaarigars of India",
+  subHeading: "We help you to design and manufacture school uniforms with Indian Kaarigars, who help you to make good quality uniforms in a budget price. We are made in India Brand and want to fulfill uniform needs for our partners."
+}
+
 const navigation = [
   { name: 'Products', href: '#' },
   { name: 'Partner Schools', href: '#' },
@@ -18,7 +23,7 @@ export default function TopHeader() {
         <nav className="flex items-center justify-between p-6 lg:px-8" aria-label="Global">
           <div className="flex lg:flex-1">
             <a href="#" className="-m-1.5 p-1.5">
-              <span className="sr-only">Your Company</span>
+              <span className="sr-only">Kaarigar Web App</span>
               <img
                 className="h-8 w-auto"
                 src="https://tailwindui.com/img/logos/mark.svg?color=indigo&shade=600"
@@ -113,7 +118,7 @@ export default function TopHeader() {
         <div className="mx-auto max-w-2xl py-32 sm:py-48 lg:py-56">
           <div className="hidden sm:mb-8 sm:flex sm:justify-center">
             <div className="relative rounded-full px-3 py-1 text-sm leading-6 text-gray-600 ring-1 ring-gray-900/10 hover:ring-gray-900/20">
-              Announcing our next round of funding.{' '}
+              We are launching a customized and great quality uniform plan for Schools.{' '}
               <a href="#" className="font-semibold text-indigo-600">
                 <span className="absolute inset-0" aria-hidden="true" />
                 Read more <span aria-hidden="true">&rarr;</span>
@@ -122,11 +127,10 @@ export default function TopHeader() {
           </div>
           <div className="text-center">
             <h1 className="text-4xl font-bold tracking-tight text-gray-900 sm:text-6xl">
-              Data to enrich your online business
+              {uniformData.heading}
             </h1>
             <p className="mt-6 text-lg leading-8 text-gray-600">
-              Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure qui lorem cupidatat commodo. Elit sunt amet
-              fugiat veniam occaecat fugiat aliqua.
+              {uniformData.subHeading}
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
               <a

@@ -1,5 +1,7 @@
 import AppHeader from "../components/AppHeader"
 import ContactSales from "../components/ContactSales"
+import Items from "../components/Items"
+import Partners from "../components/Partners"
 import TopHeader from "../components/TopHeader"
 
 export default function HomePage(){
@@ -35,6 +37,8 @@ export default function HomePage(){
                             <div class="h-64 z-20"><img src="/images/case-3.webp" alt="Proident pariatur est." class="h-full w-full object-cover overflow-hidden rounded" width="400" height="300" />
                             </div>
             <div class="p-4 shadow-lg w-full mx-auto -mt-8 bg-white rounded-b z-30 relative"><p class="uppercase text-sm text-gray-700 text-center pb-1">Case study</p><p class="text-gray-500 text-center pb-1 text-sm">Velit reprehenderit culpa Lorem reprehenderit excepteur esse.</p></div></div><span class="-mt-8 pb-12 lg:mt-4 flex items-center text-xl text-indigo-400 cursor-pointer z-30 hover:text-indigo-600">See all case studies<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" class="h-6 w-6 fill-current ml-2"><path d="M18.719 6.781L17.28 8.22 24.063 15H4v2h20.063l-6.782 6.781 1.438 1.438 8.5-8.5.687-.719-.687-.719z"></path></svg></span></div></div></div></div> */}
+            <Items />
+            <Partners />
             <ContactSales />
         </div>
     )
